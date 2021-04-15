@@ -6,7 +6,7 @@ import logging
 from rpi_rf import RFDevice
 
 logging.basicConfig(level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S',
-                    format=%(asctime)-15s - [%(levelname)s] %(module)s: %(message)s', )
+                    format='%(asctime)-15s - [%(levelname)s] %(module)s: %(message)s', )
 
 parser = argparse.ArgumentParser(description='Sends a decimal code via a 433/315MHz GPIO device')
 parser.add_argument('code', metavar='CODE', type=int,
@@ -30,7 +30,7 @@ if args.pulselength:
     pulselength = args.pulselength
 else:
     pulselength = "default"
-logging.ingo(str(args.code) +
+logging.info(str(args.code) +
              " [protocol " + str(protocol) +
              ", pulselength " + str(pulselength) + "]")
 
