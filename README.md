@@ -4,8 +4,8 @@
 
 Для приема и передачи используются такие типы модулей:
 
-![alt text](https://github.com/EternalB-1/rf/tree/master/img/433.jpeg)
-![alt text](https://github.com/EternalB-1/rf/tree/master/img/RD-RF5-433.jpg)
+![alt text](https://static-sl.insales.ru/images/products/1/1171/141264019/1070.jpg)
+![alt text](https://ae01.alicdn.com/kf/HTB1day5aULrK1Rjy1zbq6AenFXa6/QIACHIP-433-Mhz.jpg)
 
 Их я подключил по схеме:
 
