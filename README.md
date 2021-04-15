@@ -9,7 +9,7 @@
 
 Их я подключил по схеме:
 
-![alt text](https://github.com/EternalB-1/rf/tree/master/img/Screenshot_1.png)
+![alt text](https://github.com/EternalB-1/rf/blob/master/img/Screenshot_1.png?raw=true)
 
 Для према сигнала введите:
 
