@@ -32,6 +32,8 @@ python3 send.py -g 21 -t * -p ** ***
 
 Также, если у вас возникли проблемы с установкой библиотеки rpi-rf, в репозитории есть папка с ней. Для ее установки вручную введите:
 
-sudo pip3 install rpi-rf -no-index -find-links ~/rf/rpi-rf-0.9.6/
+cd rf/rpi-rf-0.9.6
+
+sudo python3 setup.py install
 
 Вся информация взята из ролика: https://youtu.be/HCiEaf1HPhE
