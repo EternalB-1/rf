@@ -11,6 +11,11 @@
 
 ![alt text](https://github.com/EternalB-1/rf/blob/master/img/Screenshot_1.png?raw=true)
 
+
+После этого вам нужно установить библиотеку:
+
+pip3 install rpi-rf
+
 Для према сигнала введите:
 
 python3 recieve.py -g 20
@@ -24,5 +29,9 @@ python3 send.py -g 21 -t * -p ** ***
 **-pulse
 
 ***-код устройства
+
+Также, если у вас возникли проблемы с установкой библиотеки rpi-rf, в репозитории есть папка с ней. Для ее установки вручную введите:
+
+sudo pip3 install rpi-rf —no-index —find-links ~/rf/rpi-rf-0.9.6/
 
 Вся информация взята из ролика: https://youtu.be/HCiEaf1HPhE
