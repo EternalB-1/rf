@@ -12,7 +12,7 @@ rfdevice = None
 
 # pylint: disable=unused-argument
 def exithandler(signal, frame):
-	rfdevice.sleanup()
+	rfdevice.cleanup()
 	sys.exit(0)
 
 logging.basicConfig(level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S',
@@ -32,7 +32,7 @@ while True:
     if rfdevice.rx_code_timestamp != timestamp:
         timestamp = rfdevice.rx_code_timestamp
         logging.info(str(rfdevice.rx_code) +
-                     " [pulselength " + str(rfdevicerx_pulselenght) +
+                     " [pulselength " + str(rfdevice.rx_pulselenght) +
                      ", protocol " + str(rfdevice.rx_proto) + "]")
     time.sleep(0.01)
 rfdevice.cleanup()
