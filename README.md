@@ -22,4 +22,4 @@ python3 send.py -g 21 -t * -p ** ***
 **-pulse
 ***-код устройства
 
-Вся информация взята из ролика: https://www.youtube.com/watch?v=HCiEaf1HPhE&list=PLWoFhdik2f3NByc3Zgo28IlSugXEw8_cV&index=3
+Вся информация взята из ролика: https://youtu.be/HCiEaf1HPhE
