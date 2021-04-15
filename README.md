@@ -18,8 +18,11 @@ python3 recieve.py -g 20
 Для отправки сигнала:
 
 python3 send.py -g 21 -t * -p ** ***
+
 *-протокол
+
 **-pulse
+
 ***-код устройства
 
 Вся информация взята из ролика: https://youtu.be/HCiEaf1HPhE
