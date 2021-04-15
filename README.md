@@ -22,7 +22,7 @@ cd rf/rpi-rf-0.9.6
 
 sudo python3 setup.py install
 
-Для према сигнала введите:
+Для приема сигнала введите:
 
 cd rf
 
