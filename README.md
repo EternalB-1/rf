@@ -11,12 +11,12 @@
 
 ![alt text](https://github.com/EternalB-1/rf/blob/master/img/Screenshot_1.png?raw=true)
 
-<h3>После этого вам нужно установить библиотеку:</h3>
+<h3>После этого вам нужно установить репозиторий и библиотеку:</h3>
 
 pip3 установка rpi-rf
 
 <h3>Если у вас возникли проблемы с установкой библиотеки rpi-rf, то в репозитории есть папка с ней. Чтобы установить его вручную, введите:</h3>
-
+git clone https://github.com/EternalB-1/rf_ru
 cd rf/rpi-rf-0.9.6
 
 sudo python3 setup.py установка
